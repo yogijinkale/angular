@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: '[app-new-cmp]',
+  selector: 'app-new-cmp',
   template: `<div>HI {{name}}</div>
   <h2>{{name.length}}</h2>
   <h2>{{name.toUpperCase()}}</h2>
@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewCmpComponent implements OnInit {
 title = 'yogesh';
-public name = "yogijinkale";
+public name = 'yogijinkale';
 newcomponent = 'welcome new component';
   constructor() {
 
